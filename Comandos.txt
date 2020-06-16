@@ -1,0 +1,26 @@
+---- intro user e email----
+
+git config --global user.name "fernando98cd"
+git config --global user.email "luis12cd@gmail.com"
+
+--mostrar ususario e email---------
+git config --global -l
+
+--crear repositorio---
+git init (en la carpeta de destino)
+
+--ver archivos sin  guardar 
+git status
+
+--guardar archivos
+git add .
+
+--confirmar archivos 
+git commit -m "comentario"
+
+--ver linea modificada 
+git diff
+
+--revertir cambios
+git checkout
+
