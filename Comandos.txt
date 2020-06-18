@@ -28,4 +28,18 @@ git checkout
 cd 'Curso GIT'/
 --mostrar ruta 
 pwd
+--CREAR NUEVA RAMA
+git branch nueva_rama  (para guardar cambios hacer un commit)
+	-ver las ramas 
+	git log --oneline --decorate --all --graph
 
+	-cambiar de ramas
+	git checkout nueva_rama
+
+	-Unir las ramas
+	 ir a la rama master 
+	  git checkout master
+	  git merge nueva_rama
+
+	-Eliminar rama
+	git branch -d nueva_rama
