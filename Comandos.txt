@@ -24,3 +24,8 @@ git diff
 --revertir cambios
 git checkout
 
+----entra a carpeta 
+cd 'Curso GIT'/
+--mostrar ruta 
+pwd
+
